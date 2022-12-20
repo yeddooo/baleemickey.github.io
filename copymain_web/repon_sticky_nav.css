@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+
+*{
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+
+   
+}
+nav{
+    background: #73a573;
+    height: 80px;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0  5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+   background: #1b1b1b;
+   transition: 0.5s;
+
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width: 1180px) {
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+ 
+}
+@media (max-width:858px) {
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top:80px;
+        left:0;
+        text-align: center;
+        left:-100%;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+       background: none;
+       color:#0082e6;
+    }
+    #check:checked ~ul{
+        left:0;
+    }
+}
+.allroom{
+    height: 100%;
+    width: 100%;
+}
+#sel{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#sel option {
+    width: 700px; 
+    height: 60px; 
+    font-size: 20px;
+}
+.texttobuy{
+    position: absolute;
+    margin-top: -500px;
+    margin-left:7rem
+}
+.container{
+    display: flex;
+    background-color: #cae8ca;
+    width: 100%;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    border-radius: 20px;
+    margin-top: -900px;
+    margin-left: 150px;
+    z-index: 1;
+}
+.date{
+    padding-left: 20px;
+}
+.item{
+    padding-left: 20px;
+}
+body, input {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2rem;
+    display: block;
+   
+  }
+  .person-room{
+    display: flex;
+  }
+  .all{
+    padding-left: 20px;
+    
+  }
+  .item2{
+    padding-left: 0px;
+    background-color: #fff;
+    width: 100px;
+    height: 50px;
+    border: solid #000 1px;
+    text-align: center;
+    
+  }
+button{
+    height: 20px;
+    width: 30px;
+  }
+.little{
+    margin-top: 10px;
+  }
+.promobt{
+    width: 70px;
+    height: 50px;
+    margin-top: 25px;
+  }
+.bookbt{
+    width: 70px;
+    height: 50px;
+    background-color: #57A6FA;
+    border-color: #57A6FA;
+    margin-top: 25px;
+    color: #fff;
+    margin-left: 50px;
+  }
+.bookbt:hover{
+    color: #000;
+  }
+

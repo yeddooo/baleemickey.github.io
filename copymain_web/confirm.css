@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+*{
+    padding:10;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+
+   
+}
+.bookingpage{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 420px;
+    height: 800px;
+    margin-left: 700px;  
+    margin-top: 80px;  
+    padding-top: 10px;
+    padding-left: 15px;
+}
+@media (min-width: 400px) and (max-width: 736px)  {
+    .bookingpage{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 320px;
+        height: 830px;
+        margin-left: 50px;  
+        margin-top: 50px;  
+        padding-top: 10px;
+        padding-left: 15px;
+
+       
+    }
+    .piggy{
+       padding-right: 50px;
+
+    }
+}
+

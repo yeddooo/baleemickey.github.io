@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mickey</title>
+    <link rel="stylesheet" href="repon_sticky_nav.css">
+    <link rel="stylesheet" href="mickey.css">
+    <link rel="stylesheet" href="responsive.css">
+    
+   
+    <script src="https://kit.fontawesome.com/a076d05399.js" ></script>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">บ้านบาหลี<label class="logolittle">รีสอร์ท</label> <label class="logo2">นครนายก</label></label>
+        <ul>
+            <li><a  class="active" href="#home" >home</a></li>
+            <li><a href="#room">room types</a></li>
+            <li><a href="#ac">activities & services</a></li>
+            <li><a href="#loca">location</a></li>
+            <li><a href="#cont">contact</a></li>
+        </ul>
+    </nav> 
+    <div id="home">
+    <div class="areabox">
+
+    </div>
+<form action="test.php" method="post"> 
+    <div class="texttobuy">
+        <br>
+      
+     <div class="turck">
+    <div class="truckuser">
+      <div class="nameuser">
+        <p>name</p>
+        <input type="text" name="user">
+      </div>
+      <div class="teluser" >
+        <p>tel</p>
+        <input type="tel" name="tel">
+      </div>
+    </div>
+    
+      <!-- date -->
+      <div class="dof">
+      <div class="truckdate">
+      <div class="date" >
+         <p>date check-in</p>
+         <input id="todaycheckin" type="date"  name="date">
+         <br>
+     </div>
+     <div class="date">
+        <p>date check-out</p>
+      <input id="today" type="date"  name="date2">
+      <br>
+     </div>
+    </div>  
+      <!-- date -->
+    
+      <!-- room -->
+      <div class="truckitem">
+      <div class="item">
+        <p>room type</p>
+        <select id="sel" name="name">
+          <option>ห้องพักเดี่ยว</option>
+          <option>ห้องพักรวม</option>
+          <option>ห้องพักเดี่ยว</option>
+         </select>
+      </div>
+      <!-- room -->
+    
+      <!-- option -->
+      <div class="item" >
+        <p>option special</p>
+        <select id="sel" name="name2">
+          <option>ไม่มี</option>
+          <option>มีสัตว์เลี้ยง</option>
+          <option>รับประทานอาหารเช้า</option>
+         </select>
+      </div>
+    </div>
+      <!-- option -->
+    
+      <!-- person -->
+      <div class="person-room">
+    
+        <div class="all">
+            <p>adult</p>
+            <div class="item2r">
+                <div class="little">
+                  <input type="number" id="quantity" name="quantity" min="0" max="100">
+             </div> 
+            </div>
+        </div>
+        <div class="all">
+            <p>children</p>
+             <div class="item2r">
+                <div class="little">
+                  <input type="number" id="quantity" name="quantity2" min="0" max="100">
+               </div>
+              </div>
+          </div>
+          <div class="all">
+            <p>room</p>
+          <div class="item2r">
+            <div class="little">
+              <input type="number" id="quantity" name="quantity3" min="0" max="100">
+          </div>
+          </div>
+         </div>         
+        </div> 
+      </div>
+
+        <div class="all">
+              <div class="book">
+                <input class="bookbt" type="submit">
+                <!-- <button ><a class="linktosavebt" href="https://www.youtube.com/watch?v=TVfIbzte9I8">จอง</a></button> -->
+              </div>
+        </div>
+     <!-- person -->
+     </div>
+    </div>
+  </form>
+      </div>
+       <!-- text to buy -->
+       <!-- person -->
+ </div>
+</div>
+  </div>
+   <!-- text to buy -->
+  </div>
+
+   <!-- room type -->
+   <div id="room">
+   <h1 class="topic">Room types</h1>
+     <div class="allcard">
+        <div class="fuck">
+            <div class="card" >
+              <img class= "pic" src="singleroom.png" alt="Avatar" >
+              <div class="container2">
+                <div class="textice">
+                    <h3>ห้องพักเดี่ยว</h3>
+                 <br>
+                 <p>ราคา : 1200</p>
+                 <p1>สำหรับ 2 ท่าน</p1> <p1>มี 1 ห้องน้ำ</p1>
+                 <br>
+                 <p1>มีเเอร์ โทรทัศน์ เเละตู้เย็น</p1>
+                </div>
+              </div>
+              <div class="hotelbtcontainer">
+                <button class="hotelbt"><a href="#home">จอง</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="fuck">
+            <div class="card">
+              <img class= "pic" src="whiteroom.png" alt="Avatar" >
+              <div class="container2">
+                <div class="textice">
+                    <h3>ห้องพักเรือนเเถว</h3>
+                 <br>
+                 <p>ราคา : 1000</p>
+                 <p1>สำหรับ 2 ท่าน</p1> <p1>มี 1 ห้องน้ำ</p1>
+                 <br>
+                 <p1>มีเเอร์ โทรทัศน์ เเละตู้เย็น</p1>
+                </div>
+              </div>
+              <div class="hotelbtcontainer">
+                <button class="hotelbt"><a href="#home">จอง</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="fuck">
+            <div class="card">
+              <img class= "pic" src="allroom.png" alt="Avatar" >
+              <div class="container2">
+                <div class="textice">
+                    <h3>ห้องพักรวม</h3>
+                 <br>
+                 <p>ราคา : 3000</p>
+                 <p1>สำหรับ 6 ท่าน</p1> <p1>มี 2 ห้องน้ำ</p1>
+                 <br>
+                 <p1>มีเเอร์ โทรทัศน์ เเละตู้เย็น</p1>
+                </div>
+              </div>
+              <div class="hotelbtcontainer">
+                <button class="hotelbt" ><a href="#home">จอง</a></button>
+              </div>
+            </div>
+          </div>
+     </div>
+    </div>
+    <div id="ac">
+     <div class="avtivities" style="height: 80vh; padding-top: 7%; padding-left: 2%;">
+        <h2 class="topicac">Activities & services</h2>
+        <div class="allacti">
+            <div class="miniac" >
+                <img src="swimming.png" style="height: 100px; border: solid 2px  #cae8ca; background: #cae8ca; border-radius: 100px;">
+                <div class="textac">
+                    <h3>ว่ายน้ำ</h3>
+                    <p4>รีสอร์ทมีสระว่ายน้ำเเละสไลด์เดอร์ที่เปิดให้บริการว่ายน้ำ</p4>
+                </div>
+            </div>
+            <div class="miniac">
+                <img src="kayaking.png" style="height: 100px; border: solid 2px  #cae8ca; background: #cae8ca; border-radius: 100px;">
+                <div class="textac">
+                    <h3>ล่องเเก่ง</h3>
+                    <p4>สามารถติดต่อบริการเพื่อออกไปทำกิจกรรม</p4>
+                </div>
+            </div>
+            <div class="miniac">
+                <img src="atv.png" style="height: 100px; border: solid 2px  #cae8ca; background: #cae8ca; border-radius: 100px;">
+                <div class="textac">
+                    <h3>ขับรถ atv</h3>
+                    <p4>สามารถติดต่อบริการเพื่อออกไปทำกิจกรรม</p4>
+                </div>
+            </div>
+            <div class="miniac">
+                <img src="microphone.png" style="height: 100px; border: solid 2px  #cae8ca; background: #cae8ca; border-radius: 100px;">
+                <div class="textac">
+                    <h3>ปาร์ตี้</h3>
+                    <p4>สามารถติดต่อเพื่อจัดงาน เหมาสถานที่ หรือใช้เครื่องเสียงได้
+                    </p4>
+                </div>
+            </div>
+            <div class="miniac">
+                <img src="restaurant.png"style="height: 100px; border: solid 2px  #cae8ca; background: #cae8ca; border-radius: 100px;">
+                <div class="textac">
+                    <h3>สั่งอาหาร</h3>
+                    <p4>สามารถสั่งอาหารได้ เเละนอกจากนี้ที่รีสอร์ทยังมีคาเฟ่เล็กๆสำหรับทานกาเเฟในสวน</p4>
+                </div>
+            </div>
+        </div>
+     </div>
+    </div>
+    <div id="loca">
+     <div class="location">
+        <h2 style="padding-left:30px">Location</h2>
+        <div class="datalocation">
+          <div class="lo">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15465.027840568004!2d101.3052703!3d14.2964971!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbccd17c3a2f251cf!2z4Lia4LmJ4Liy4LiZ4Lia4Liy4Lir4Lil4Li14Lij4Li14Liq4Lit4Lij4LmM4LiXIOC4meC4hOC4o-C4meC4suC4ouC4gQ!5e0!3m2!1sth!2sth!4v1668396661001!5m2!1sth!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+         <div class="topiclocation" style="margin-top: 50px; margin-left:30px">
+          <h3>บ้านบาหลีรีสอร์ท </h3>
+          <div class="minilocation"><br>
+            <p3>หากมาจากทางหลวงหมายเลข 3049 <br>เมื่อมาถึงหน้าเขื่อนขุนด่านปราการชลเลี้ยวขวาที่วงเวียน<br>
+              <p3>แล้วตามถนนทางหลวงชนบทหมายเลข 4016 มาประมาณ 4  กิโลเมตร รีสอร์ทจะตั้งอยู่ทางขวามือ</p3><br><br><br>
+            <p3> หากมาจากทางหลวงหมายเลข 3239<br> รีสอร์ทจะอยู่ทางซ้ายมือก่อนถึงเขื่อนขุนด่านปราการชล 4 กิโลเมตร</p3>
+          </div>
+        </div> 
+        </div>
+     </div>
+    </div>
+    <div class="detail">
+      <img  class="detailpic" src="de.png">
+    </div>
+     <div id="cont">
+     <footer>
+       <div class="end">
+        <div class="textall" style="text-align: center;padding-top: 40px;">
+        <p>มาทำให้การพักผ่อนของคุณเป็นอย่างที่มันควรจะเป็น</p>
+        <p>ช่องทางการติดต่อ บ้านบาหลีรีสอร์ท</p>
+        <br>
+        <div class="contact">
+          <a class="ct"href="https://www.facebook.com/search/top?q=%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9A%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5%E0%B8%A3%E0%B8%B5%E0%B8%AA%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%97%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%81"><img src="facebook (1).png" style="height: 40px; width:40px"></a>
+          <a  class="ct" href="https://www.instagram.com/baleeresort_nakornayok/"><img src="instagram-logo.png" style="height: 40px; width:40px" ></a>
+        </div>
+          <p>Tel . 0804097313</p>
+        <br>
+        <div class="last">
+        <p style="margin-top: 10px;">Copyright © 2022. Bann Balee Resort.</p>
+      </div>
+      </div>
+       </div>
+     </footer>
+    </div>
+    <!-- room type -->
+  <script>
+    // // datecheckin-out javascript
+    let todaycheckin = new Date().toISOString().substr(0, 10);
+    document.querySelector("#todaycheckin").value = todaycheckin;
+    document.querySelector("#todaycheckin2").valueAsDate = new Date();
+
+
+    let today = new Date().toISOString().substr(0, 10);
+    document.querySelector("#today").value = today;
+    document.querySelector("#today2").valueAsDate = new Date();
+    // // datecheckin-out javascript
+
+
+    // item javascript adult
+    function totalclick(click){
+        const totalclick = document.getElementById("totalclick");
+        const sumvalue = parseInt(totalclick.innerText)+click;
+        // console.log(sumvalue+click);
+        totalclick.innerText =sumvalue;
+
+        if(sumvalue<0){
+            totalclick.innerText=0;
+        }
+    }
+    // item javascript adult
+    // item javascript children
+    function totalclick2(click){
+        const totalclick2 = document.getElementById("totalclick2");
+        const sumvalue2 = parseInt(totalclick2.innerText)+click;
+        // console.log(sumvalue+click);
+        totalclick2.innerText =sumvalue2;
+
+        if(sumvalue2<0){
+            totalclick2.innerText=0;
+        }
+    }
+    function totalclick3(click){
+        const totalclick3 = document.getElementById("totalclick3");
+        const sumvalue3 = parseInt(totalclick3.innerText)+click;
+        // console.log(sumvalue+click);
+        totalclick3.innerText =sumvalue3;
+
+        if(sumvalue3<0){
+            totalclick3.innerText=0;
+        }
+    }
+     // item javascript children
+    
+
+</script>
+  </script>
+   
+</body>
+</html>
